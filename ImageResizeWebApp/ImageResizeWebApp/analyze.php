@@ -83,6 +83,7 @@ if (isset($_POST['submit'])) {
 </script>
  
 <h1>Analyze image</h1>
+<button onclick="processImage()">Analyze image</button>
 <div id="wrapper" style="width:1020px; display:table;">
     <div id="jsonOutput" style="width:600px; display:table-cell;">
         Response:
